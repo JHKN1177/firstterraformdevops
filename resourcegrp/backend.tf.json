@@ -1,0 +1,16 @@
+{
+    "terraform": [
+        {
+            "backend": [
+                {
+                    "azurerm": {
+                        "resource_group_name": "testrg",
+                        "storage_account_name": "testrgsadevops",
+                        "container_name": "testdevops",
+                        "key": "terraform.tfstate"
+                    }
+                }
+            ]
+        }
+    ]
+}
