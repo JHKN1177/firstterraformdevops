@@ -14,7 +14,8 @@ provider "azurerm" {
 }
 
 module "mymodule" {
-  source = "D:\\Terraform\\Modules\\rg_group_mod"
+  source = "D:\\Terraform\\Test\\Modules\\rg_group_mod"
+  
   myrg = {
     resourcegrp_name = var.myrgsource.resourcegrp_name
     location_name    = var.myrgsource.location_name
